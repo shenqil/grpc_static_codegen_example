@@ -1,0 +1,17 @@
+{
+  "name": "grpc_static_codegen",
+  "version": "1.0.0",
+  "description": "This is the static code generation variant of the Hello World. Code in these examples is pre-generated using protoc and the Node gRPC protoc plugin, and the generated code can be found in various `*_pb.js` files. The command line sequence for generating those files is as follows (assuming that `protoc` and `grpc_node_plugin` are present, and starting in the directory which contains this README.md file):",
+  "main": "greeter_client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.10.6",
+    "google-protobuf": "^3.21.2",
+    "minimist": "^1.2.8"
+  }
+}
